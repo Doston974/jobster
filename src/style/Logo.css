@@ -1,0 +1,9 @@
+nav {
+    @apply flex items-center mt-4 md:ml-2 ml-2
+}
+.logo {
+    @apply w-[60px] h-[60px] 
+}
+nav p {
+    @apply text-3xl md:text-4xl ml-4 text-[#22b8f1] font-medium tracking-wider
+}

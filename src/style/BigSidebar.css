@@ -1,0 +1,9 @@
+@media screen and (min-width: 1024px) {
+.big-bar-container {
+    @apply max-h-screen w-[250px] ml-[-250px] duration-700
+}
+}
+
+.show-container-big {
+    @apply lg:ml-0
+}

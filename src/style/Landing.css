@@ -1,0 +1,25 @@
+main {
+    @apply md:max-w-[1100px] md:mx-auto mx-4 
+}
+
+.page {
+    @apply flex justify-center min-h-[80vh] my-auto place-items-center 
+}
+.foto {
+    @apply w-[550px] h-[500px] hidden md:block
+}
+.info {
+    @apply grid grid-cols-1 gap-8 mr-4 
+}
+.info h1 {
+    @apply capitalize text-5xl font-bold
+}
+.info p {
+    @apply text-gray-600 leading-7 font-semibold
+}
+.info button {
+    @apply bg-[#22b8f1] border-2 p-2 px-4 rounded-lg text-white text-xl font-medium 
+}
+.info h1 span {
+    @apply text-[#22b8f1]
+}

@@ -1,0 +1,8 @@
+.form-wrapper {
+    @apply bg-slate-100 min-h-screen grid grid-flow-col pt-[15vh] md:pt-[20vh] justify-center rounded 
+}
+
+
+.form-container {
+    @apply bg-white border-t-8 border-[#22b8f1]  w-[75vw] md:w-[375px] h-max rounded p-8
+}

@@ -1,0 +1,15 @@
+.errorlink { 
+    @apply text-[#22b9f2] text-center flex justify-center
+}
+
+
+.error-img {
+    @apply md:h-[900px] md:w-[1000px] w-full mx-auto
+} 
+
+.errorlink > h2 {
+    @apply border-b border-[#22b9f2] text-2xl font-semibold
+}
+.err-wrapper {
+    @apply grid mx-auto place-content-center justify-center h-screen
+}

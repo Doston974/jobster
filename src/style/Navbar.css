@@ -1,0 +1,17 @@
+.dropdown {
+    @apply absolute top-10 right-0 p-2 invisible
+}
+
+.show-dropdown {
+    @apply visible
+}
+
+.btn {
+    @apply flex items-center justify-center relative 
+}
+.dropdown-btn {
+    @apply right-0
+}
+.btn-container {
+    @apply p-1 mr-8 rounded fixed right-4
+}

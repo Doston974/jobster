@@ -1,0 +1,9 @@
+.form-row {
+    @apply flex flex-col
+}
+.form-input {
+    @apply border-2 border-gray-300 rounded bg-gray-50 py-1 p-2 outline-none
+}
+.form-label {
+    @apply capitalize text-xl my-2
+}
